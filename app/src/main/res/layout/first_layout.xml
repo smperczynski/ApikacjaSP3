@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.97"
+                app:srcCompat="@mipmap/scratch" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20px"
+                android:layout_weight="0.97"
+                android:scrollbars="vertical"
+                android:text="Scratch to edukacyjny język obiektowy, stworzony jako środek do nauczania dzieci i młodzieży (od 8 lat wzwyż) podstaw programowania oraz środowisko programistyczne służące do tworzenia i uruchamiania programów w tym języku. Scratch umożliwia łatwe tworzenie interaktywnych historyjek, animacji, gier, muzyki. Programowanie odbywa się w sposób wizualny - elementy języka mają kształt puzzli a poprzez przeciąganie mogą być układane w określonym porządku. W ten sposób tworzy się kod przypisany określonemu obiektowi. Obiekty mogą reagować na zdarzenia zewnętrzne. Wygląd postaci przypisanych do obiektów można wybierać z zasobnika, tworzyć lub importować z zewnątrz." />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.97"
+                app:srcCompat="@mipmap/okno" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20px"
+                android:layout_weight="0.97"
+                android:scrollbars="vertical"
+                android:text="Scratch to także społecznościowy serwis, pozwalający każdemu na umieszczanie stworzonych w tym języku programów, dyskutowanie o nich oraz oglądanie i pobieranie prac stworzonych przez innych użytkowników tego serwisu. Strona jest dostępna w języku polskim.  Scratch'a można pobrać bezpłatnie z działu download na stronie domowej programu.  W wersji 2.0 oprócz wielu udoskonaleń dodano możliwość tworzenia procedur zwanych blokami. Obecnie (wrzesień 2013) jest dostępna tylko wersja działająca w przeglądarce internetowej w połączeniu z MIT. Jest ona otwarta dla każdego użytkownika, ale zapisywać kod mogą użytkownicy zalogowani na serwerze MIT. Autorzy obiecują że będzie dostępna wersja działająca w trybie offline." />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.97"
+                app:srcCompat="@mipmap/kod" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20px"
+                android:layout_weight="0.97"
+                android:scrollbars="vertical"
+                android:text="Scratch to edukacyjny język obiektowy, stworzony jako środek do nauczania dzieci i młodzieży (od 8 lat wzwyż) podstaw programowania oraz środowisko programistyczne służące do tworzenia i uruchamiania programów w tym języku. Scratch umożliwia łatwe tworzenie interaktywnych historyjek, animacji, gier, muzyki. Programowanie odbywa się w sposób wizualny - elementy języka mają kształt puzzli a poprzez przeciąganie mogą być układane w określonym porządku. W ten sposób tworzy się kod przypisany określonemu obiektowi. Obiekty mogą reagować na zdarzenia zewnętrzne. Wygląd postaci przypisanych do obiektów można wybierać z zasobnika, tworzyć lub importować z zewnątrz." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

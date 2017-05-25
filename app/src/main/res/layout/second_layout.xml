@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="visible">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="RUCH" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/b1"
+        android:text="Pisces" />
+
+    <Button
+        android:id="@+id/bAries"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/b2"
+        android:text="Aries" />
+
+    <Button
+        android:id="@+id/bTaurs"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1"
+        android:layout_below="@+id/b1"
+        android:text="Taurs" />
+
+    <Button
+        android:id="@+id/bGemini"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b2"
+        android:layout_alignRight="@+id/b2"
+        android:layout_alignTop="@+id/bTaurs"
+        android:text="Gemini" />
+
+    <Button
+        android:id="@+id/bCancer"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bAries"
+        android:layout_alignRight="@+id/bAries"
+        android:layout_below="@+id/bAries"
+        android:text="Cancer" />
+
+    <Button
+        android:id="@+id/bLeo"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bTaurs"
+        android:layout_alignStart="@+id/bTaurs"
+        android:layout_below="@+id/bTaurs"
+        android:text="Leo" />
+
+    <Button
+        android:id="@+id/bVirgo"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bGemini"
+        android:layout_alignStart="@+id/bGemini"
+        android:layout_alignTop="@+id/bLeo"
+        android:text="Virgo" />
+
+    <Button
+        android:id="@+id/bLibra"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bCancer"
+        android:layout_alignRight="@+id/bCancer"
+        android:layout_below="@+id/bCancer"
+        android:text="Libra" />
+
+</RelativeLayout>

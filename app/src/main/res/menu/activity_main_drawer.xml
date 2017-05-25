@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Co to jest Scratch?" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="?android:attr/actionModeCopyDrawable"
+            android:title="Przykłady" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="Ciekawostki" />
+    </group>
+
+    <item android:title="Od autora">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Informacje" />
+        </menu>
+    </item>
+
+</menu>
